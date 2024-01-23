@@ -12,7 +12,7 @@ class Expediente {
     }
 }
 
-const dias = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
+const dias = ["Pasos en lunes", "Pasos en martes", "Pasos en miércoles", "Pasos en jueves", "Pasos en viernes", "Pasos en sábado", "Pasos en domingo"];
 
 function createStepsInputs() {
     const stepsList = document.getElementById('stepsList');
