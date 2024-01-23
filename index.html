@@ -9,15 +9,17 @@
     </style>
 </head>
 <body>
-    <div id="loginForm">
-        <label for="loginUser">Usuario:</label>
-        <input type="text" id="loginUser" placeholder="Ingresa tu usuario">
-        <br>
-        <label for="loginPassword">Contraseña:</label>
-        <input type="password" id="loginPassword" placeholder="Ingresa tu contraseña">
-        <br>
-        <button id="loginBtn">Iniciar Sesión</button>
-    </div>
+    <form>
+        <div id="loginForm">
+            <label for="loginUser">Usuario:</label>
+            <input type="text" id="loginUser" placeholder="Ingresa tu usuario">
+            <br>
+            <label for="loginPassword">Contraseña:</label>
+            <input type="password" id="loginPassword" placeholder="Ingresa tu contraseña">
+            <br>
+            <button id="loginBtn">Iniciar Sesión</button>
+        </div>
+    </form>
 
     <div id="app" style="display: none;">
         <label for="userName">Nombre:</label>
@@ -29,7 +31,7 @@
         <label for="walkTime">Tiempo de Caminata Diaria (minutos):</label>
         <input type="number" id="walkTime" placeholder="Caminata diaria en minutos">
         <br>
-
+        <h2>Número de pasos por día</h2>
         <ul id="stepsList"></ul>
 
         <button id="calculateBtn">Calcular</button>
