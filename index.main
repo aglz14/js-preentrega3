@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Iniciar Sesión</h1>
+
+    <div>
+        <label for="loginUser">Usuario:</label>
+        <input type="text" id="loginUser">
+    </div>
+
+    <div>
+        <label for="loginPassword">Contraseña:</label>
+        <input type="password" id="loginPassword">
+    </div>
+
+    <button id="loginBtn">Iniciar Sesión</button>
+
+    <div id="app" style="display: none;">
+    <h2>Calculadora de Pasos</h2>
+
+    <div>
+        <label for="userName">Ingrese su nombre:</label>
+        <input type="text" id="userName">
+    </div>
+
+    <div>
+        <label for="weight">Ingrese su peso en kilogramos:</label>
+        <input type="number" id="weight">
+    </div>
+
+    <div>
+        <label for="walkTime">Ingrese la cantidad de minutos que camina por día:</label>
+        <input type="number" id="walkTime">
+    </div>
+
+    <div id="stepsInput">
+        <h3>Ingrese los pasos diarios:</h3>
+        <ul id="stepsList"></ul>
+    </div>
+
+    <button id="calculateBtn">Calcular y Mostrar Resumen</button>
+
+    <p id="output"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
